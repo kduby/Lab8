@@ -12,6 +12,8 @@ No, because we want to unit test/debug on a small scale and the message feature 
 Yes, because it can be executed quickly by just testing a message with more than 80 characters and a message less than 80 characters.
 
 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?
+With "headless" set to true, we can run the tests without a browser UI
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
 
+pushToHistory('settings', 0);
