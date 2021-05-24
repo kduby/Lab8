@@ -19,4 +19,8 @@ Yes, because it can be executed quickly by just testing a message with more than
 With "headless" set to true, we can run the tests without a browser UI
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
-pushToHistory('settings', 0);
+beforeEach(() => {
+   await page.click('img');
+})
+
+![alt text](AllTests.PNG)
