@@ -1,5 +1,9 @@
 # Lab8_Starter
 
+## Author(s):
+  - Simon Liu
+  - Kevin Wong
+
 ## Check your understanding q's (FILL OUT)
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)
 1
@@ -15,5 +19,4 @@ Yes, because it can be executed quickly by just testing a message with more than
 With "headless" set to true, we can run the tests without a browser UI
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
-
 pushToHistory('settings', 0);
